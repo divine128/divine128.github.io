@@ -265,7 +265,6 @@ font-size: 18px;
     margin: 10px;
     grid-template-columns: repeat(1,1fr);
   }
-  .interest ul
-{
-  grid-template-columns: repeat(2,1fr);
-}
+  .interest ul{
+    grid-template-columns: repeat(2,1fr);
+  }}
