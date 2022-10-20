@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: chocolate;
+  background-color: #002408;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,7 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 50px;
+  padding: 3px;
   min-height: 1000px;
   background: white; 
   display: grid;
@@ -44,22 +45,22 @@ body {
 }
 
 .contact_info {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .contact_info.education li {
-  margin-bottom: 15px;
+  margin-left: 20px;
 }
 .contact_info.education h5 {
-  color: burlywood;
+  color: black;
   font-weight: 500;
 }
 
 .contact_info.education h4:nth-child(2) {
-  color: white;
+  color: black;
   font-weight: 500;
 }
 .contact_info.education h4 {
-  color: white;
+  color: black;
   font-weight: 300;
 }
 
@@ -71,18 +72,30 @@ body {
 }
 
 .title {
-  color: black;
+  color: white;
   text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-  background: 50px burlywood;
-  border: 5px double white;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: -30px 0 0 0 ;
+  background: 50px #133A1B;
+  border: 2px dotted white;
+  border-radius: 50px;
+  padding: 5px;
+  text-align: center;
+  font-family:  Tahoma;
 }
 
 .contact_info ul {
   position: relative;
+  text-align: center;
 }
+.contact_info {
+ background-color: #dff5ce;
+ border-radius: 10px;
+ margin: 30px;  
+ padding: 10px; 
+}
+
 
 .contact_info ul li {
   position: relative;
@@ -94,13 +107,14 @@ body {
 .contact_info ul li .icon {
   display: inline-block;
   width: 30px;
-  font-size: 18px;
-  color: burlywood;
+  font-size: 20px;
+  color: black;
 }
-
+.
 .contact_info ul li span {
-  color: white;
-  font-weight: 300;
+  color: black;
+  font-weight: 500;
+
 }
 
 .profile_text .imgbx {
@@ -109,9 +123,10 @@ body {
  height: 200px;
  border-radius: 50%;
  overflow: hidden;
- border: 8px double darksalmon;
+ border: 8px double black;
  justify-content: center;
-
+ margin-top: 40px;
+ margin-bottom: 15px;
 }
 
 .profile_text .imgbx img {
@@ -137,17 +152,11 @@ body {
   font-size: 0.8em;
   font-weight: 300;
 }
-.container .top {
-  position: relative;
-  background-color:black;
-  padding: 40px;
-  height: auto;
 
-}
 .container .left_side {
   position: relative;
-  background: black;
-  padding: 40px;
+  background: #476930;
+  padding: 2px;
   height: auto;
 }
 
@@ -165,30 +174,39 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: white;
+  background: green;
 }
 
 .container .right_side {
   position: relative;
-  background: peachpuff;
-  padding: 40px;
+  background: #dff5ce;
+  padding: 5px;
   height: auto;
   
 }
 .about {
   margin-bottom: 50px;
+  background-color: #82AC85;   
+  margin: 30px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 5px double black;
 }
 
 .about:last-child {
   margin-bottom: 0;
 }
 .title2 {
-  color: black;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 10px;
-  background: burlywood;
+  margin: -38px 0 0 20px;
+  background: #133A1B;
   border: 2px solid black;
+  padding: 10px;
+  border-radius: 34px;
+  text-align: center;
+  
 }
 
 p {
@@ -204,13 +222,22 @@ p {
 }
 .about .box .year_company h5 {
   text-transform: uppercase;
-  color: chocolate;
+  color: white;
   font-weight: 800;
+  background-color: black;
+  padding: 2px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 20%;
+  
 }
 .about .box .text h4 {
 text-transform: uppercase;
-color: brown;
+color: black;
 font-size: 18px;
+border-radius: 40px;
+background-color: white;
+text-align: center;
 }
   
 .skills .box {
@@ -243,19 +270,21 @@ font-size: 18px;
 .interest ul {
   display: grid;
   grid-row: auto;
+  margin: 10px;
+  padding: 10px;
 }
 .interest ul li {
   list-style: none;
-  color: white;
+  color: black;
   font-weight: 500;
   margin: 10px 0;
 
 }
 .interest ul li .fa {
-  color: burlywood;
+  color: black;
   font-size: 18px;
+  letter-spacing: normal;
 }
-
 
 
 @media (max-width: 1000px)
@@ -265,6 +294,7 @@ font-size: 18px;
     margin: 10px;
     grid-template-columns: repeat(1,1fr);
   }
-  .interest ul{
-    grid-template-columns: repeat(2,1fr);
-  }}
+  .interest ul
+{
+  grid-template-columns: repeat(2,1fr);
+}}
