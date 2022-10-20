@@ -91,7 +91,7 @@ body {
 }
 .contact_info {
  background-color: #dff5ce;
- border-radius: 10px;
+ border-radius: 20px;
  margin: 30px;  
  padding: 10px; 
 }
@@ -155,7 +155,7 @@ body {
 
 .container .left_side {
   position: relative;
-  background: #476930;
+  background: black;
   padding: 2px;
   height: auto;
 }
@@ -285,8 +285,52 @@ text-align: center;
   font-size: 18px;
   letter-spacing: normal;
 }
+.title2:hover {
+  color: white;
+  background-color: brown;
+}
+.title:hover {
+color: #dff5ce;
+background-color: #133A1B;
+}
+.about:hover {
+  color: black;
+  background-color: burlywood;
+  transform: translateY(-5px);
+}
+.container .right_side:hover {
+  background-color: chocolate;
+  
+}
 
+.container .left_side:hover {
+  background-color: #476930;
+  transform: translateY(-5px);
+}
 
+.title:hover {
+  color: black;
+  background-color: chocolate;
+  transform: rotate3d(5px);
+}
+.contact_info:hover {
+  background-color: burlywood;
+ transform: translateY(-5px);
+}
+.profile_text .imgbx:hover {
+  background-color: white;
+}
+.body:hover {
+  background-color: peachpuff;
+}
+.about .box .text h4:hover {
+  color:white;
+  background-color: black;
+}
+.about .box .year_company h5:hover {
+  color: black;
+  background-color: white;
+}
 @media (max-width: 1000px)
 {
   .container
